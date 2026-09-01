@@ -1,0 +1,12 @@
+title: 'Site Settings'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: logo
+        field:
+          container: assets
+          max_files: 1
+          type: assets
+          display: Logo

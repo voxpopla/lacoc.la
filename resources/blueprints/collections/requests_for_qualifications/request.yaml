@@ -1,0 +1,53 @@
+title: Request
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          display: Title
+          validate:
+            - required
+      -
+        handle: description
+        field:
+          buttons:
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - anchor
+            - removeformat
+          remove_empty_nodes: false
+          type: bard
+          display: Description
+      -
+        handle: resources
+        field:
+          display: Resources
+          type: replicator
+          sets:
+            main:
+              display: Main
+              sets:
+                resource:
+                  display: Resource
+                  fields:
+                    -
+                      handle: name
+                      field:
+                        type: text
+                        display: Name
+                        validate:
+                          - required
+                    -
+                      handle: file
+                      field:
+                        container: assets
+                        max_files: 1
+                        type: assets
+                        display: File
+                        validate:
+                          - required

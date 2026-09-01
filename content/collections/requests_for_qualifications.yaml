@@ -1,9 +1,6 @@
-title: Pages
+title: 'Requests for Qualifications'
 icon: collections
-template: '@blueprint'
-layout: layout
 revisions: false
-route: '{parent_uri}/{slug}'
 sort_dir: asc
 date_behavior:
   past: null
@@ -13,5 +10,3 @@ preview_targets:
     label: Entry
     url: '{permalink}'
     refresh: true
-structure:
-  root: true

@@ -1,3 +1,75 @@
 @import "tailwindcss";
 @source "../views";
 @source "../../content";
+@source "../../config/theme.php";
+
+@font-face {
+  font-family: gt-alpina-standard;
+  src: url('../fonts/GT-Alpina-Standard-Light.woff2') format('woff2'),
+    url('../fonts/GT-Alpina-Standard-Light.woff') format('woff'),
+    url('../fonts/GT-Alpina-Standard-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: gt-alpina-typewriter-regular;
+  src: url('../fonts/GT-Alpina-Typewriter-Regular.woff2') format('woff2'),
+    url('../fonts/GT-Alpina-Typewriter-Regular.woff') format('woff'),
+    url('../fonts/GT-Alpina-Typewriter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@theme static {
+  --font-alpina: "gt-alpina-standard", serif;
+  --font-typewriter: "gt-alpina-typewriter-regular", monospace;
+  --color-pink: #F9B497;
+  --color-pink-light: #FFC8B1;
+  --color-pink-dark: #8F5B45;
+  --color-yellow: #FFBE71;
+  --color-yellow-light: #FFCD92;
+  --color-yellow-dark: #956225;
+  --color-red: #D67D61;
+  --color-red-light: #DC9781;
+  --color-red-dark: #734435;
+  --color-blue: #63ADB3;
+  --color-blue-light: #88C1C6;
+  --color-blue-dark: #3C7377;
+  --color-brand-black: #272727;
+  --color-brand-white: #FAFAFA;
+  --color-brand-grey: #E7E7E7;
+  --color-brand-alert: #E8E9DC;
+  --color-green: #A6C97C;
+  --color-green-light: #BBD19F;
+  --color-green-dark: #5C7044;
+  --color-off-white: #FAFAFA;
+}
+
+@layer components {
+  .header:has(.nav-item--yellow:hover) {
+    @apply bg-yellow;
+  }
+
+  .header:has(.nav-item--pink:hover) {
+    @apply bg-pink;
+  }
+
+  .header:has(.nav-item--red:hover) {
+    @apply bg-red;
+  }
+
+  .header:has(.nav-item--blue:hover) {
+    @apply bg-blue;
+  }
+
+  .header:has(.nav-item--green:hover) {
+    @apply bg-green;
+  }
+
+  .header:has(.nav-item:hover) .nav-item.active {
+    @apply bg-transparent;
+  }
+}

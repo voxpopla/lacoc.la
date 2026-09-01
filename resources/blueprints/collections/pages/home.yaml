@@ -1,0 +1,115 @@
+title: Home
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: hero
+        field:
+          type: group
+          display: Hero
+          fields:
+            -
+              handle: header
+              field:
+                type: text
+                display: Header
+            -
+              handle: mobile_image
+              field:
+                container: assets
+                max_files: 1
+                type: assets
+                display: Mobile Image
+            -
+              handle: desktop_image
+              field:
+                container: assets
+                max_files: 1
+                type: assets
+                display: Desktop Image
+      -
+        handle: content
+        field:
+          display: Content
+          type: replicator
+          sets:
+            main:
+              display: Main
+              sets:
+                requests_for_qualifications:
+                  display: Requests for Qualifications
+                  fields:
+                    -
+                      handle: header
+                      field:
+                        type: text
+                        display: Header
+                    -
+                      handle: description
+                      field:
+                        type: textarea
+                        display: Description
+                    -
+                      import: color
+                      prefix: section_
+                      config:
+                        color:
+                          display: Section Color
+                meetings:
+                  display: Meetings
+                  fields:
+                    -
+                      handle: header
+                      field:
+                        type: text
+                        display: Header
+                    -
+                      handle: description
+                      field:
+                        type: textarea
+                        display: Description
+                    -
+                      import: color
+                      prefix: section_
+                      config:
+                        color:
+                          display: Section Color
+                news_and_updates:
+                  display: News and Updates
+                  fields:
+                    -
+                      handle: header
+                      field:
+                        type: text
+                        display: Header
+                    -
+                      handle: description
+                      field:
+                        type: textarea
+                        display: Description
+                    -
+                      import: color
+                      prefix: section_
+                      config:
+                        color:
+                          display: Section Color
+                governance:
+                  display: Governance
+                  fields:
+                    -
+                      handle: header
+                      field:
+                        type: text
+                        display: Header
+                    -
+                      handle: description
+                      field:
+                        type: textarea
+                        display: Description
+                    -
+                      import: color
+                      prefix: section_
+                      config:
+                        color:
+                          display: Section Color

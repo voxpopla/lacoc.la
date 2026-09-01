@@ -1,4 +1,9 @@
 name: AJ
 super: true
 id: 45d9871d-446e-4122-a960-0e8647fe24b4
-password_hash: $2y$12$r/GtNEOymeIdL5Qi3F3Mwu4sshjTgV72C7fIfw9tAYq2u5q2lKdIC
+password_hash: $2y$12$7YhvZKGFlf3qxQrPNghhne3H9kDG1gO6U/ZFgRFdswXqmJCheoYpW
+preferences:
+  collections:
+    pages:
+      view: tree
+      after_save: continue_editing

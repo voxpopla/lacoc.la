@@ -1,0 +1,14 @@
+title: Color
+fields:
+  -
+    handle: color
+    field:
+      options:
+        yellow: Yellow
+        pink: Pink
+        red: Red
+        blue: Blue
+        green: Green
+      default: yellow
+      type: select
+      display: Color
