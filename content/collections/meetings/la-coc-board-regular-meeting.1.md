@@ -1,6 +1,5 @@
 ---
 id: d048a41a-9751-4fec-bd53-884c18ca174a
-published: false
 blueprint: meeting
 title: 'LA CoC Board Regular Meeting'
 description:
@@ -27,6 +26,6 @@ feature_link:
   url: 'https://www.zoomgov.com/webinar/register/WN_WodzZwxBRHa9Kl3zQNy_4w'
   open_in_new_tab: true
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1788465680
+updated_at: 1788465706
 duplicated_from: 0637faa7-bb7c-4a5d-a0d5-44c049205bc9
 ---
