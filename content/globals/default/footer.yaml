@@ -16,7 +16,17 @@ copy:
       -
         type: hardBreak
       -
+        type: hardBreak
+      -
         type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'mailto:info@losangelescoc.com'
+              rel: null
+              target: null
+              title: null
         text: contact@losangelescoc.com
       -
         type: hardBreak
