@@ -12,3 +12,5 @@ preferences:
       view: tree
     requests_for_qualifications:
       view: list
+    governance:
+      view: list
