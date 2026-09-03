@@ -4,4 +4,22 @@ copy:
     content:
       -
         type: text
-        text: "Contact Us\ncontact@losangelescoc.com\n(213) 683-3333"
+        marks:
+          -
+            type: bold
+        text: 'Contact Us'
+      -
+        type: hardBreak
+      -
+        type: text
+        text: 'Have questions about the LA CoC or want to get involved? Contact the LAHSA CoC team for more information about meetings, membership, and participation opportunities.'
+      -
+        type: hardBreak
+      -
+        type: text
+        text: contact@losangelescoc.com
+      -
+        type: hardBreak
+      -
+        type: text
+        text: '(213) 683-3333'
