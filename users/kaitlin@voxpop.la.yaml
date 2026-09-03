@@ -2,3 +2,7 @@ name: Kaitlin
 super: true
 id: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
 password_hash: $2y$12$bu/2LGrdYRoMQ3t2AtCPD.KSqWZY5Lvy5Ubhj4bg61e/FZJSvxZDC
+preferences:
+  collections:
+    meetings:
+      view: list
