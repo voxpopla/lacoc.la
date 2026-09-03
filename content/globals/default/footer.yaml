@@ -23,11 +23,11 @@ copy:
           -
             type: link
             attrs:
-              href: 'mailto:info@losangelescoc.com'
+              href: 'mailto:info@losangelescoc.org'
               rel: null
               target: null
               title: null
-        text: contact@losangelescoc.com
+        text: info@losangelescoc.org
       -
         type: hardBreak
       -
