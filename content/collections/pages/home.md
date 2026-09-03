@@ -5,10 +5,10 @@ title: Home
 hero_title: Test
 hero_text: tests
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1788473512
+updated_at: 1788473644
 hero:
   header: 'Coordinating housing and services to prevent and end homelessness across Los Angeles County.'
-  mobile_image: lacahsa_h.jpg
+  mobile_image: 43.jpg
   desktop_image: 43.jpg
 content:
   -
