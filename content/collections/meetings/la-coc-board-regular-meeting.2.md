@@ -1,7 +1,7 @@
 ---
 id: 9a78d4d0-c271-4182-9cb1-61429a2bda85
 blueprint: meeting
-title: 'LA CoC Board Regular Meeting (Duplicated)'
+title: 'LA CoC Board Regular Meeting - 11/11'
 description:
   -
     type: paragraph
@@ -26,6 +26,6 @@ feature_link:
   url: 'https://www.zoomgov.com/webinar/register/WN_WodzZwxBRHa9Kl3zQNy_4w'
   open_in_new_tab: true
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1788465810
+updated_at: 1788466627
 duplicated_from: d048a41a-9751-4fec-bd53-884c18ca174a
 ---
