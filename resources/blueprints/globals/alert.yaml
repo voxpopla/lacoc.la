@@ -1,0 +1,20 @@
+title: Alert
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: copy
+        field:
+          type: text
+          display: Copy
+      -
+        handle: url
+        field:
+          type: link
+          display: Url
+      -
+        handle: open_in_new_tab
+        field:
+          type: toggle
+          display: 'Open in New Tab'

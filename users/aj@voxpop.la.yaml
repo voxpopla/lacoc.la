@@ -7,3 +7,9 @@ preferences:
     pages:
       view: tree
       after_save: continue_editing
+    requests_for_qualifications:
+      view: list
+    meetings:
+      view: list
+    board_members:
+      view: list

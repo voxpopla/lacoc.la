@@ -1,0 +1,12 @@
+title: News
+icon: collections
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: null
+  future: null
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

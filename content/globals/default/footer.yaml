@@ -1,0 +1,7 @@
+copy:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Contact Us\ncontact@losangelescoc.com\n(213) 683-3333"

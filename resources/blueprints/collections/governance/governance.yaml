@@ -1,0 +1,62 @@
+title: Governance
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              display: Title
+              validate:
+                - required
+          -
+            handle: type
+            field:
+              options:
+                -
+                  key: file
+                  value: File
+                -
+                  key: url
+                  value: Url
+              type: select
+              display: Type
+              validate:
+                - required
+          -
+            handle: file
+            field:
+              container: assets
+              max_files: 1
+              type: assets
+              display: File
+              validate:
+                - sometimes
+                - required
+              if:
+                type: 'equals file'
+          -
+            handle: url
+            field:
+              type: link
+              display: Url
+              validate:
+                - required
+                - sometimes
+              if:
+                type: 'equals url'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

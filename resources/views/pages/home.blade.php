@@ -46,25 +46,15 @@
     </section>
   @endif
 
-  @foreach ($content ?? [] as $section)
-    @continue(isset($section['enabled']) && ! $section['enabled'])
+  <div class="space-y-22">
+    @foreach ($content ?? [] as $section)
+      @continue(isset($section['enabled']) && ! $section['enabled'])
 
-    @php
-      $sectionColor = Statamic\View\Blade\value($section['section_color'] ?? 'yellow');
-      $sectionSlug = Str::slug($section['header']);
-      $sectionTextColorClass = config("theme.colors.text.{$sectionColor}", config('theme.colors.text.yellow'));
-    @endphp
+      @php
+        $sectionType = Statamic\View\Blade\value($section['type'] ?? null);
+      @endphp
 
-    <section id="{{ $sectionSlug }}" class="p-4 min-h-screen lg:px-9" x-data x-intersect:enter="$store.active_section = '{{ $sectionSlug }}'">
-      <h2 class="{{ $sectionTextColorClass }} font-alpina text-4xl leading-none">
-        {{ $section['header'] }}
-      </h2>
-
-      @if($section['description'] ?? false)
-        <div class="mt-4 text-lg leading-normal">
-          {{ $section['description'] }}
-        </div>
-      @endif
-    </section>
-  @endforeach
+      @includeIf("content.{$sectionType}", [...$section])
+    @endforeach
+  </div>
 </x-split-layout>

@@ -46,6 +46,7 @@
   --color-green-light: #BBD19F;
   --color-green-dark: #5C7044;
   --color-off-white: #FAFAFA;
+  --color-beige: #E8E9DC;
 }
 
 @layer components {

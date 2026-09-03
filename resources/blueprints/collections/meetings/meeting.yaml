@@ -1,0 +1,161 @@
+title: Meeting
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              display: Title
+              validate:
+                - required
+          -
+            handle: description
+            field:
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - anchor
+                - removeformat
+              remove_empty_nodes: false
+              type: bard
+              display: Description
+          -
+            handle: date
+            field:
+              type: date
+              time_enabled: true
+              display: Date
+              validate:
+                - required
+          -
+            handle: feature_link
+            field:
+              type: group
+              display: 'Feature Link'
+              fields:
+                -
+                  handle: link_type
+                  field:
+                    options:
+                      -
+                        key: file
+                        value: File
+                      -
+                        key: url
+                        value: Url
+                    type: select
+                    display: 'Link Type'
+                    validate:
+                      - required
+                -
+                  handle: name
+                  field:
+                    type: text
+                    display: Name
+                    validate:
+                      - required
+                -
+                  handle: file
+                  field:
+                    container: assets
+                    max_files: 1
+                    type: assets
+                    display: File
+                    validate:
+                      - sometimes
+                      - required
+                    if:
+                      link_type: 'equals file'
+                -
+                  handle: url
+                  field:
+                    type: link
+                    display: Url
+                    validate:
+                      - required
+                      - sometimes
+                    if:
+                      link_type: 'equals url'
+                -
+                  handle: open_in_new_tab
+                  field:
+                    type: toggle
+                    display: 'Open in New Tab'
+          -
+            handle: links
+            field:
+              display: Links
+              type: replicator
+              sets:
+                main:
+                  display: Main
+                  sets:
+                    link:
+                      display: Link
+                      fields:
+                        -
+                          handle: link_type
+                          field:
+                            options:
+                              -
+                                key: file
+                                value: File
+                              -
+                                key: url
+                                value: Url
+                            type: select
+                            display: 'Link Type'
+                            validate:
+                              - required
+                        -
+                          handle: name
+                          field:
+                            type: text
+                            display: Name
+                            validate:
+                              - required
+                        -
+                          handle: file
+                          field:
+                            container: assets
+                            max_files: 1
+                            type: assets
+                            display: File
+                            validate:
+                              - sometimes
+                              - required
+                            if:
+                              link_type: 'equals file'
+                        -
+                          handle: url
+                          field:
+                            type: link
+                            display: Url
+                            validate:
+                              - required
+                              - sometimes
+                            if:
+                              link_type: 'equals url'
+                        -
+                          handle: open_in_new_tab
+                          field:
+                            type: toggle
+                            display: 'Open in New Tab'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

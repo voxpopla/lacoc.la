@@ -1,0 +1,32 @@
+title: 'Board Member'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              display: Name
+              validate:
+                - required
+          -
+            handle: member_title
+            field:
+              type: text
+              display: Title
+          -
+            handle: image
+            field:
+              container: assets
+              max_files: 1
+              type: assets
+              display: Image
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        display: 'New Section'

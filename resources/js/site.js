@@ -1,8 +1,8 @@
 import A11yDialog from 'a11y-dialog';
 Object.assign(window, { A11yDialog });
 
-import alpine from 'alpinejs';
 import intersect from '@alpinejs/intersect';
+import { Livewire, Alpine } from '../../vendor/livewire/livewire/dist/livewire.esm';
 
 function elementPosition(_el) {
   const target = _el,
@@ -32,9 +32,12 @@ function elementPosition(_el) {
 }
 Object.assign(window, { elementPosition });
 
-alpine.plugin(intersect);
-alpine.store('active_section', '');
-alpine.store('alert_open', true);
-Object.assign(window, { Alpine: alpine }).Alpine.start();
+Alpine.plugin(intersect);
+Alpine.store('active_section', '');
+Alpine.store('alert_open', true);
+
+Object.assign(window, { Alpine, Livewire });
+
+Livewire.start();
 
 import.meta.webpackHot?.accept(console.error);
