@@ -6,3 +6,5 @@ preferences:
   collections:
     meetings:
       view: list
+    news:
+      view: list
