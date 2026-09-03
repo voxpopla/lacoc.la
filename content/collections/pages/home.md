@@ -4,12 +4,12 @@ blueprint: home
 title: Home
 hero_title: Test
 hero_text: tests
-updated_by: 45d9871d-446e-4122-a960-0e8647fe24b4
-updated_at: 1788445244
+updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
+updated_at: 1788468931
 hero:
   header: 'Coordinating housing and services to prevent and end homelessness across Los Angeles County.'
   mobile_image: lacahsa_h.jpg
-  desktop_image: lacahsa_v.jpg
+  desktop_image: 43.jpg
 content:
   -
     id: KafxkrCP-zHMBVxoyulQ6
@@ -17,26 +17,25 @@ content:
     type: requests_for_qualifications
     enabled: true
     section_color: green
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius porttitor ex pretium lobortis. Nulla lobortis, magna eu sollicitudin venenatis, dui elit elementum elit, vel sollicitudin sapien diam sed nisi.'
+    description: 'Requests for Qualification are intended to provide a transparent, competitive, and documented process through which the CoC can evaluate qualified entities and make designation decisions for FY 2027, subject to applicable judicial review and HUD approval.'
   -
     id: cD7M0lqDHNvwEeg00d-CS
     header: 'Public Meetings'
     type: meetings
     enabled: true
     section_color: yellow
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius porttitor ex pretium lobortis. Nulla lobortis, magna eu sollicitudin venenatis, dui elit elementum elit, vel sollicitudin sapien diam sed nisi.'
+    description: 'CoC Board meetings and Semi-Annual General Meetings are open to the public. We encourage attendance and participation from service providers, government agencies, and community members.'
   -
     id: Ak6VdPxE-QdkG7Vp2HnMP
     header: 'News and Updates'
     type: news_and_updates
     enabled: true
     section_color: blue
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius porttitor ex pretium lobortis. Nulla lobortis, magna eu sollicitudin venenatis, dui elit elementum elit, vel sollicitudin sapien diam sed nisi.'
   -
     id: '-NOCUJ3-0F012-mFcm5_k'
     header: 'Board & Governance'
     type: governance
     enabled: true
     section_color: blue
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius porttitor ex pretium lobortis. Nulla lobortis, magna eu sollicitudin venenatis, dui elit elementum elit, vel sollicitudin sapien diam sed nisi.'
+    description: 'The LA CoC Board is comprised of 21 members — eight Service Planning Area representatives, eight system partner representatives, and five at-large representatives — who evaluate and make recommendations on CoC policies.'
 ---
