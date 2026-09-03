@@ -64,20 +64,6 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Unique Lock Expiry
-    |--------------------------------------------------------------------------
-    |
-    | When commits are queued, a unique lock prevents multiple jobs from
-    | running concurrently against the same repository. This value (in
-    | seconds) controls how long that lock is held as a crash-safety
-    | net. It should exceed your queue worker's configured timeout.
-    |
-    */
-
-    'unique_lock_expiry' => env('STATAMIC_GIT_UNIQUE_LOCK_EXPIRY', 120),
-
-    /*
-    |--------------------------------------------------------------------------
     | Git User
     |--------------------------------------------------------------------------
     |
@@ -149,7 +135,7 @@ return [
 
     'commands' => [
         '{{ git }} add {{ paths }}',
-        '{{ git }} -c "user.name={{ name }}" -c "user.email={{ email }}" commit -m "{{ message }}"',
+        '{{ git }} -c "user.name={{ name }}" -c "user.email={{ email }}" commit -m "{{ message }} [BOT]"',
     ],
 
     /*
