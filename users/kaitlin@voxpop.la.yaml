@@ -10,3 +10,5 @@ preferences:
       view: list
     pages:
       view: tree
+    requests_for_qualifications:
+      view: list
