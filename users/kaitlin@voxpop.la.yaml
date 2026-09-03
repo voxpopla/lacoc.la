@@ -8,3 +8,5 @@ preferences:
       view: list
     news:
       view: list
+    pages:
+      view: tree
