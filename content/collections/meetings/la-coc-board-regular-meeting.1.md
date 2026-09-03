@@ -2,7 +2,7 @@
 id: d048a41a-9751-4fec-bd53-884c18ca174a
 published: false
 blueprint: meeting
-title: 'LA CoC Board Regular Meeting (Duplicated)'
+title: 'LA CoC Board Regular Meeting'
 description:
   -
     type: paragraph
@@ -20,13 +20,13 @@ description:
       -
         type: text
         text: 'Los Angeles, California 90017'
-date: '2026-09-09 20:00'
+date: '2026-10-14 20:00'
 feature_link:
   link_type: url
   name: 'Register to Attend Virtually'
-  url: 'https://www.zoomgov.com/webinar/register/WN_WodzZwxBRHa9Kl3zQNy_4whttps://www.zoomgov.com/webinar/register/WN_WodzZwxBRHa9Kl3zQNy_4w'
+  url: 'https://www.zoomgov.com/webinar/register/WN_WodzZwxBRHa9Kl3zQNy_4w'
   open_in_new_tab: true
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1788465595
+updated_at: 1788465680
 duplicated_from: 0637faa7-bb7c-4a5d-a0d5-44c049205bc9
 ---
