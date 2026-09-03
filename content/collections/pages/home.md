@@ -5,7 +5,7 @@ title: Home
 hero_title: Test
 hero_text: tests
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1788468931
+updated_at: 1788473512
 hero:
   header: 'Coordinating housing and services to prevent and end homelessness across Los Angeles County.'
   mobile_image: lacahsa_h.jpg
@@ -36,6 +36,6 @@ content:
     header: 'Board & Governance'
     type: governance
     enabled: true
-    section_color: blue
+    section_color: pink
     description: 'The LA CoC Board is comprised of 21 members — eight Service Planning Area representatives, eight system partner representatives, and five at-large representatives — who evaluate and make recommendations on CoC policies.'
 ---
