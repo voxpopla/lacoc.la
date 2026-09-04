@@ -45,13 +45,13 @@ new class extends Component
       </h3>
 
       @if($description)
-        <div class="mt-6 font-typewriter text-lg leading-tight sm:text-xl [&_p]:mb-4 [&_p:last-child]:mb-0">
+        <div class="mt-6 font-spectral text-lg leading-tight sm:text-xl [&_p]:mb-4 [&_p:last-child]:mb-0">
           {!! $description !!}
         </div>
       @endif
 
       @if(count($resources))
-        <div class="mt-8 border-t border-current font-typewriter text-lg leading-none sm:text-xl">
+        <div class="mt-8 border-t border-current font-spectral text-lg leading-none sm:text-xl">
           @foreach($resources as $resource)
             @php
               $resourceName = $resource['name'] ?? null;
@@ -85,7 +85,7 @@ new class extends Component
       wire:click="loadMore"
       wire:loading.attr="disabled"
       wire:target="loadMore"
-      class="flex w-full items-center justify-center border border-current p-4 font-typewriter text-lg uppercase leading-none underline transition cursor-pointer disabled:opacity-70 sm:text-xl {{ $backgroundHoverColorClass }} hover:text-brand-white"
+      class="flex w-full items-center justify-center border border-current p-4 font-spectral text-lg uppercase leading-none underline transition cursor-pointer disabled:opacity-70 sm:text-xl {{ $backgroundHoverColorClass }} hover:text-brand-white"
     >
       <span wire:loading.remove wire:target="loadMore">
         {{ __('Past RFQs') }}

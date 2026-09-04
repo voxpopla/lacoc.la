@@ -13,19 +13,19 @@
   </h3>
 
   @if($date)
-    <div class="mt-6 font-typewriter text-lg leading-none sm:text-xl">
+    <div class="mt-6 font-spectral text-lg leading-none sm:text-xl">
       {{ $this->formatMeetingDate($date) }}
     </div>
   @endif
 
   @if($description)
-    <div class="mt-6 font-typewriter text-lg leading-tight sm:text-xl [&_p]:mb-4 [&_p:last-child]:mb-0">
+    <div class="mt-6 font-spectral text-lg leading-tight sm:text-xl [&_p]:mb-4 [&_p:last-child]:mb-0">
       {!! $description !!}
     </div>
   @endif
 
   @if(count($links))
-    <div class="mt-7 flex flex-wrap gap-x-6 gap-y-3 font-alpina text-lg uppercase leading-none sm:text-xl">
+    <div class="mt-7 flex flex-wrap gap-x-6 gap-y-3 font-spectral text-lg uppercase leading-none sm:text-xl">
       @foreach($links as $link)
         @php
           $linkName = $this->fieldValue($link, 'name');
@@ -51,7 +51,7 @@
   @if($featureName && $featureUrl)
     <a
       href="{{ $featureUrl }}"
-      class="mt-7 block border p-4 text-center font-alpina text-lg uppercase leading-none underline text-brand-white transition sm:text-xl {{ $backgroundDarkColorClass }} {{ $borderDarkColorClass }} hover:bg-brand-white {{ $textDarkHoverColorClass }}"
+      class="mt-7 block border p-4 text-center font-spectral text-lg uppercase leading-none underline text-brand-white transition sm:text-xl {{ $backgroundDarkColorClass }} {{ $borderDarkColorClass }} hover:bg-brand-white {{ $textDarkHoverColorClass }}"
       @if($this->linkTarget($featureLink)) target="{{ $this->linkTarget($featureLink) }}" @endif
       @if($this->linkRel($featureLink)) rel="{{ $this->linkRel($featureLink) }}" @endif
     >

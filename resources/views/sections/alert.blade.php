@@ -9,7 +9,7 @@
   <div
     x-data
     x-show="$store.alert_open"
-    class="fixed inset-x-0 top-0 z-50 border-b border-brand-black bg-beige pl-4 pr-8 py-1.5 text-right font-typewriter text-xl leading-none text-brand-black"
+    class="fixed inset-x-0 top-0 z-50 border-b border-brand-black bg-beige pl-4 pr-8 py-1.5 text-right font-spectral text-xl leading-none text-brand-black"
   >
     @if($url)
       <a

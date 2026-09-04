@@ -3,29 +3,8 @@
 @source "../../content";
 @source "../../config/theme.php";
 
-@font-face {
-  font-family: gt-alpina-standard;
-  src: url('../fonts/GT-Alpina-Standard-Light.woff2') format('woff2'),
-    url('../fonts/GT-Alpina-Standard-Light.woff') format('woff'),
-    url('../fonts/GT-Alpina-Standard-Light.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-@font-face {
-  font-family: gt-alpina-typewriter-regular;
-  src: url('../fonts/GT-Alpina-Typewriter-Regular.woff2') format('woff2'),
-    url('../fonts/GT-Alpina-Typewriter-Regular.woff') format('woff'),
-    url('../fonts/GT-Alpina-Typewriter-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
 @theme static {
-  --font-alpina: "gt-alpina-standard", serif;
-  --font-typewriter: "gt-alpina-typewriter-regular", monospace;
+  --font-spectral: "Spectral", serif;
   --color-pink: #F9B497;
   --color-pink-light: #FFC8B1;
   --color-pink-dark: #8F5B45;

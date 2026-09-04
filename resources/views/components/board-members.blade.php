@@ -45,12 +45,12 @@
         <div class="aspect-square w-full bg-brand-grey"></div>
       @endif --}}
 
-      <h3 class="mt-2 font-typewriter text-xs leading-none">
+      <h3 class="mt-2 font-spectral text-xs leading-none">
         {{ $member->get('title') }}
       </h3>
 
       @if($member->get('member_title'))
-        <div class="mt-1 font-typewriter text-xs leading-none">
+        <div class="mt-1 font-spectral text-xs leading-none">
           {{ $member->get('member_title') }}
         </div>
       @endif

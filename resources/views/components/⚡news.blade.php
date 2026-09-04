@@ -97,7 +97,7 @@ new class extends Component
       $linkUrl = $this->linkUrl($link);
     @endphp
 
-    <article class="flex items-end justify-between gap-6 border-b border-current py-4 font-typewriter text-lg leading-tight sm:text-xl">
+    <article class="flex items-end justify-between gap-6 border-b border-current py-4 font-spectral text-lg leading-tight sm:text-xl">
       <div>
         <h3>
           {{ $entry->get('title') }}
@@ -129,7 +129,7 @@ new class extends Component
       wire:click="loadMore"
       wire:loading.attr="disabled"
       wire:target="loadMore"
-      class="mt-7 flex w-full items-center justify-center border border-current p-4 font-typewriter text-lg uppercase leading-none underline transition cursor-pointer disabled:opacity-70 sm:text-xl {{ $backgroundHoverColorClass }} hover:text-brand-white"
+      class="mt-7 flex w-full items-center justify-center border border-current p-4 font-spectral text-lg uppercase leading-none underline transition cursor-pointer disabled:opacity-70 sm:text-xl {{ $backgroundHoverColorClass }} hover:text-brand-white"
     >
       <span wire:loading.remove wire:target="loadMore">
         {{ __('Load More') }}

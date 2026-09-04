@@ -18,7 +18,7 @@
   @if($heroHeader || $fallbackImage)
     <section class="flex flex-col h-[calc(100vh-8rem)] p-4 pb-12 sm:pb-16 sm:pt-8 lg:px-9 lg:h-[calc(100vh-2.25rem)]" x-data x-intersect:enter="$store.active_section = ''">
       @if($heroHeader)
-        <h1 class="mb-6 sm:mb-12 font-alpina text-5xl leading-none sm:text-[54px]">
+        <h1 class="mb-6 sm:mb-12 font-spectral text-5xl leading-none sm:text-[54px]">
           {{ $heroHeader }}
         </h1>
       @endif

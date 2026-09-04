@@ -9,7 +9,7 @@
   </h2>
 
   @if($description)
-    <div class="mt-8 font-alpina text-2xl leading-none sm:text-[2.125rem]">
+    <div class="mt-8 font-spectral text-2xl leading-none sm:text-[2.125rem]">
       {{ $description }}
     </div>
   @endif
