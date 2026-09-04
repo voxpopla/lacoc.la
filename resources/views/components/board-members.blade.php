@@ -39,11 +39,11 @@
     @endphp
 
     <article>
-      @if($url)
+      {{-- @if($url)
         <img src="{{ $url }}" alt="{{ $member->get('title') }}" class="aspect-square w-full object-cover">
       @else
         <div class="aspect-square w-full bg-brand-grey"></div>
-      @endif
+      @endif --}}
 
       <h3 class="mt-2 font-typewriter text-xs leading-none">
         {{ $member->get('title') }}
