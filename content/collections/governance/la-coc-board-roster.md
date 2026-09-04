@@ -4,5 +4,6 @@ blueprint: governance
 title: 'LA CoC Board Roster'
 type: file
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1788543415
+updated_at: 1788565920
+file: los-angeles-coc-board-roster.pdf
 ---
