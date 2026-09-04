@@ -28,8 +28,3 @@ copy:
               target: null
               title: null
         text: info@losangelescoc.org
-      -
-        type: hardBreak
-      -
-        type: text
-        text: '(213) 683-3333'
