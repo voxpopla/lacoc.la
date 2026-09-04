@@ -15,4 +15,4 @@ preferences:
     governance:
       view: list
     board_members:
-      view: list
+      view: tree
