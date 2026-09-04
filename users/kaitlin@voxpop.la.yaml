@@ -13,6 +13,6 @@ preferences:
     requests_for_qualifications:
       view: list
     governance:
-      view: tree
+      view: list
     board_members:
       view: tree
