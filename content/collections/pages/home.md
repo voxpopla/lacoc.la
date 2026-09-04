@@ -5,7 +5,7 @@ title: Home
 hero_title: Test
 hero_text: tests
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1788542721
+updated_at: 1788565056
 hero:
   header: 'Coordinating housing and services to prevent and end homelessness across Los Angeles County.'
   mobile_image: 43.jpg
@@ -13,18 +13,18 @@ hero:
 content:
   -
     id: KafxkrCP-zHMBVxoyulQ6
-    header: 'Requests for Qualification'
+    header: 'Request for Qualifications'
     type: requests_for_qualifications
     enabled: true
     section_color: green
-    description: 'Requests for Qualification are intended to provide a transparent, competitive, and documented process through which the CoC can evaluate qualified entities and make designation decisions for FY 2027, subject to applicable judicial review and HUD approval.'
+    description: 'The forthcoming Request for Qualifications is intended to provide a transparent, competitive, and documented process through which the CoC can evaluate qualified entities to fulfill core functions for the FY 2027 program competition, subject to applicable judicial review and HUD approval.'
   -
     id: cD7M0lqDHNvwEeg00d-CS
     header: 'Public Meetings'
     type: meetings
     enabled: true
     section_color: yellow
-    description: 'CoC Board meetings and Semi-Annual General Meetings are open to the public. We encourage attendance and participation from service providers, government agencies, and community members.'
+    description: 'We encourage attendance and participation from all community stakeholders, including service providers, government agencies, first responders, business owners, faith-based organizations and members of the general public.'
   -
     id: Ak6VdPxE-QdkG7Vp2HnMP
     header: 'News and Updates'
