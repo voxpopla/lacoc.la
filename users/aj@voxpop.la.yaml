@@ -13,3 +13,5 @@ preferences:
       view: list
     board_members:
       view: list
+    governance:
+      view: list
