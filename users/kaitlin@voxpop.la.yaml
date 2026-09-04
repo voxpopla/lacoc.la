@@ -5,7 +5,7 @@ password_hash: $2y$12$bu/2LGrdYRoMQ3t2AtCPD.KSqWZY5Lvy5Ubhj4bg61e/FZJSvxZDC
 preferences:
   collections:
     meetings:
-      view: list
+      view: tree
     news:
       view: list
     pages:
