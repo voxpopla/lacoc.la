@@ -11,7 +11,7 @@ description:
         marks:
           -
             type: italic
-        text: 'Details coming September 9, 2026!'
+        text: 'Details anticipated September 9, 2026'
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1788542840
+updated_at: 1788565284
 ---
