@@ -1,3 +1,5 @@
+@cascade(['title'])
+
 @php
   $seoSettings = Statamic\Facades\GlobalSet::findByHandle('seo')?->inCurrentSite()?->data()->all() ?? [];
   $seo = App\Support\Seo::metadata($seoSettings, $title ?? null);

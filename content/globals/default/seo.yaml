@@ -1,5 +1,6 @@
 site_name: 'Los Angeles Continuum of Care'
 default_title: 'Los Angeles Continuum of Care'
+title_suffix: 'Los Angeles Continuum of Care'
 title_separator: '|'
 noindex: false
 nofollow: false
