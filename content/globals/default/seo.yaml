@@ -1,0 +1,10 @@
+site_name: 'Los Angeles Continuum of Care'
+default_title: 'Los Angeles Continuum of Care'
+title_separator: '|'
+noindex: false
+nofollow: false
+og_type: website
+og_locale: en_US
+twitter_card: summary_large_image
+structured_data: true
+organization_name: 'Los Angeles Continuum of Care'

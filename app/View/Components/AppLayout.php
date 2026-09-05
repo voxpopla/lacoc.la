@@ -14,7 +14,7 @@ class AppLayout extends Component
     public function render(): View
     {
         return view('layouts.app', [
-            'title' => $this->title ?? config('app.name'),
+            'title' => $this->title,
         ]);
     }
 }
