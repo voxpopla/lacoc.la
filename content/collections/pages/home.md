@@ -5,7 +5,7 @@ title: Home
 hero_title: Test
 hero_text: tests
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1788565955
+updated_at: 1789083823
 hero:
   header: 'Coordinating housing and services to prevent and end homelessness across Los Angeles County.'
   mobile_image: 43.jpg
@@ -17,14 +17,23 @@ content:
     type: requests_for_qualifications
     enabled: true
     section_color: green
-    description: 'The forthcoming Request for Qualifications is intended to provide a transparent, competitive, and documented process through which the CoC can evaluate qualified entities to fulfill core functions for the FY 2027 program competition, subject to applicable judicial review and HUD approval.'
+    description: |-
+      The LA CoC Board is preparing to release a Request for Qualifications (RFQ) to identify
+      qualified entities to serve in one or more of four core administrative roles for the FY
+      2027 CoC Program cycle: Collaborative Applicant, HMIS Lead, CES Management
+      Entity, and PIT Count Administrator. The RFQ is intended to provide a transparent,
+      competitive, and documented process for evaluating qualified entities, subject to
+      applicable judicial review and HUD approval.
   -
     id: cD7M0lqDHNvwEeg00d-CS
     header: 'Public Meetings'
     type: meetings
     enabled: true
     section_color: yellow
-    description: 'We encourage attendance and participation from all community stakeholders, including service providers, government agencies, first responders, business owners, faith-based organizations and members of the general public.'
+    description: |-
+      We encourage attendance and participation from all community stakeholders, including
+      service providers, government agencies, first responders, business owners, faith-based
+      organizations and members of the general public.
   -
     id: Ak6VdPxE-QdkG7Vp2HnMP
     header: 'News and Updates'
