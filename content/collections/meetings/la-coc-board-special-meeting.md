@@ -1,7 +1,7 @@
 ---
 id: 4858d06a-d138-42dd-99f1-8224ae386a43
 blueprint: meeting
-title: 'LA CoC Board Special Meeting'
+title: 'LA CoC Board Special Meeting - 9/11'
 description:
   -
     type: paragraph
@@ -35,5 +35,5 @@ links:
     type: link
     enabled: true
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1789084320
+updated_at: 1789084346
 ---
