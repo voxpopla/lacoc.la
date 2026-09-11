@@ -27,6 +27,8 @@ description:
         type: hardBreak
   -
     type: paragraph
+  -
+    type: paragraph
     content:
       -
         type: text
@@ -68,7 +70,7 @@ description:
             type: italic
         text: '*See draft RFQ for complete timeline. Dates are subject to change and will be re-published if adjusted.'
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1789085710
+updated_at: 1789085733
 resources:
   -
     id: MQawMfypDzbzgReK_41sh
