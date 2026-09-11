@@ -34,6 +34,7 @@ tabs:
               display: Date
               validate:
                 - required
+              timezone: America/Los_Angeles
           -
             handle: feature_link
             field:
