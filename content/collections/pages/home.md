@@ -5,7 +5,7 @@ title: Home
 hero_title: Test
 hero_text: tests
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1789144159
+updated_at: 1789167092
 hero:
   header: 'Coordinating housing and services to prevent and end homelessness.'
   mobile_image: 43.jpg
@@ -18,12 +18,13 @@ content:
     enabled: true
     section_color: green
     description: |-
-      The LA CoC Board is preparing to release a Request for Qualifications (RFQ) to identify
-      qualified entities to serve in one or more of four core administrative roles for the FY
-      2027 CoC Program cycle: Collaborative Applicant, HMIS Lead, CES Management
-      Entity, and PIT Count Administrator. The RFQ is intended to provide a transparent,
-      competitive, and documented process for evaluating qualified entities, subject to
-      applicable judicial review and HUD approval.
+      The Los Angeles Continuum of Care (LA CoC) invites qualified entities to submit
+      responses to a Request for Qualifications for applicants to serve in one or more of four
+      core administrative roles for the FY 2027 CoC Program cycle: Collaborative Applicant,
+      Homeless Management Information System (HMIS) Lead, Coordinated Entry System
+      (CES) Management Entity, and Point-in-Time (PIT) Count Administrator. The RFQ is
+      intended to provide a transparent, competitive, and documented process for evaluating
+      qualified entities, subject to applicable judicial review and HUD approval.
   -
     id: cD7M0lqDHNvwEeg00d-CS
     header: 'Public Meetings'
