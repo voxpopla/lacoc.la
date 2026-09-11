@@ -9,3 +9,8 @@ tabs:
             field:
               type: text
               display: 'First name'
+          -
+            handle: last_name
+            field:
+              type: text
+              display: 'Last name'
