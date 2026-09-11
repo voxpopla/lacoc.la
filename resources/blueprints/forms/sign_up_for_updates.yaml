@@ -19,3 +19,8 @@ tabs:
             field:
               type: text
               display: Organization
+          -
+            handle: email_address
+            field:
+              type: text
+              display: 'Email address'
