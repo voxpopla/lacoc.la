@@ -5,9 +5,9 @@ title: Home
 hero_title: Test
 hero_text: tests
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1789083823
+updated_at: 1789144159
 hero:
-  header: 'Coordinating housing and services to prevent and end homelessness across Los Angeles County.'
+  header: 'Coordinating housing and services to prevent and end homelessness.'
   mobile_image: 43.jpg
   desktop_image: 43.jpg
 content:
