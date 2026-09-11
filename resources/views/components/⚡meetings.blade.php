@@ -7,7 +7,7 @@ use Statamic\Facades\Entry;
 
 new class extends Component
 {
-    public int $pastLimit = 5;
+    public int $pastLimit = 0;
     public string $backgroundDarkColorClass = '';
     public string $backgroundHoverColorClass = '';
     public string $borderDarkColorClass = '';
@@ -21,24 +21,26 @@ new class extends Component
 
     public function with(): array
     {
+        $now = now()->format('Y-m-d H:i');
+
         $baseQuery = Entry::query()
             ->where('collection', 'meetings')
             ->whereStatus('published');
 
         $upcoming = (clone $baseQuery)
-            ->where('date', '>=', now())
-            ->orderBy('date')
+            ->where('data->date', '>=', $now)
+            ->orderBy('data->date', 'asc')
             ->get();
 
         $pastQuery = (clone $baseQuery)
-            ->where('date', '<', now());
+            ->where('data->date', '<', $now);
 
         return [
             'upcomingMeetings' => $upcoming,
-            'pastMeetings' => (clone $pastQuery)
-                ->orderBy('date', 'desc')
+            'pastMeetings' => $this->pastLimit > 0 ? (clone $pastQuery)
+                ->orderBy('data->date', 'desc')
                 ->limit($this->pastLimit)
-                ->get(),
+                ->get() : collect(),
             'hasMorePastMeetings' => $this->pastLimit < (clone $pastQuery)->count(),
         ];
     }
