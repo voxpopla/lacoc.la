@@ -3,6 +3,10 @@
 @source "../../content";
 @source "../../config/theme.php";
 
+[x-cloak] {
+  display: none !important;
+}
+
 @theme static {
   --font-spectral: "Spectral", serif;
   --color-pink: #F9B497;

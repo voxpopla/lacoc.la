@@ -15,3 +15,9 @@ preferences:
       view: list
     governance:
       view: list
+  forms:
+    sign_up_for_updates:
+      columns:
+        - first_name
+        - email_address
+        - datestamp

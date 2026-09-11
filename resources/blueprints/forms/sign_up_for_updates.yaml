@@ -9,18 +9,39 @@ tabs:
             field:
               type: text
               display: 'First name'
+              autocomplete: given-name
+              validate:
+                - nullable
+                - string
+                - 'max:255'
           -
             handle: last_name
             field:
               type: text
               display: 'Last name'
+              autocomplete: family-name
+              validate:
+                - nullable
+                - string
+                - 'max:255'
           -
             handle: organization
             field:
               type: text
               display: Organization
+              autocomplete: organization
+              validate:
+                - nullable
+                - string
+                - 'max:255'
           -
             handle: email_address
             field:
               type: text
               display: 'Email address'
+              input_type: email
+              autocomplete: email
+              validate:
+                - required
+                - email
+                - 'max:255'

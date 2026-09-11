@@ -349,6 +349,11 @@ enhanced-resolve@^5.24.1:
     graceful-fs "^4.2.4"
     tapable "^2.3.3"
 
+es-toolkit@^1.32.0:
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/es-toolkit/-/es-toolkit-1.52.0.tgz#71eaf1a8b18834ef77637eccbb885ba4c03cd6dd"
+  integrity sha512-XTNEJQh1tY1ZJVcf6ayP/2n4ZPyaHlW2FWs7xvw5ddPuhUVjLD3olQVQS7kf58JbAB48iL0uL/jerTrjtV3lDA==
+
 escalade@^3.1.1:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.2.0.tgz#011a3f69856ba189dffa7dc8fcce99d2a87903e5"
@@ -388,6 +393,21 @@ jiti@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-2.7.0.tgz#974228f2f4ca2bc21885a1797b45fea68e950c64"
   integrity sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==
+
+laravel-precognition-alpine@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/laravel-precognition-alpine/-/laravel-precognition-alpine-2.0.0.tgz#18edfba98e9bb3414064199696a625d1c7e78f76"
+  integrity sha512-Msk/zGryiyBDOEFU3Xfh9ZWOUrO4xhEcG8bD+40bv2G3F22Nyz9PxWXjA4ZphXn/8p3HLpjJIpe062Znc/tgbg==
+  dependencies:
+    es-toolkit "^1.32.0"
+    laravel-precognition "2.0.0"
+
+laravel-precognition@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/laravel-precognition/-/laravel-precognition-2.0.0.tgz#59f153fff6f44d14909a8cc0d31dad04818ec568"
+  integrity sha512-dmA4HGc9m+TsVNsJs9/XQBI8u6j7coilN+qKkBuhuXQzH3HypwS/c5dFQ4UqUGjBbcxIM7zdk91kM/SRZwIvWQ==
+  dependencies:
+    es-toolkit "^1.32.0"
 
 laravel-vite-plugin@^3.1:
   version "3.2.0"

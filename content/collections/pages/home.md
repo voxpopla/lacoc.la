@@ -48,4 +48,11 @@ content:
     enabled: true
     section_color: pink
     description: 'The LA CoC Board is comprised of 21 members — eight Service Planning Area representatives, eight system partner representatives, and five at-large representatives — who evaluate and make recommendations on CoC policies.'
+  -
+    id: 48c572b7-a74b-4509-bfa0-9910f433bf2a
+    type: form
+    enabled: true
+    header: 'Sign up for updates'
+    form: sign_up_for_updates
+    section_color: red
 ---

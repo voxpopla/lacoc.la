@@ -13,6 +13,7 @@
         "a11y-dialog": "^8.1.5",
         "alpinejs": "^3.16.3",
         "concurrently": "^10.0.3",
+        "laravel-precognition-alpine": "^2.0.0",
         "laravel-vite-plugin": "^3.1",
         "tailwindcss": "^4.0.6",
         "vite": "^8.0.0"

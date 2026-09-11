@@ -37,6 +37,30 @@ sections:
             main:
               display: Main
               sets:
+                form:
+                  display: Form
+                  fields:
+                    -
+                      handle: header
+                      field:
+                        type: text
+                        display: Section Title
+                        validate:
+                          - required
+                    -
+                      handle: form
+                      field:
+                        type: form
+                        display: Form
+                        max_items: 1
+                        validate:
+                          - required
+                    -
+                      import: color
+                      prefix: section_
+                      config:
+                        color:
+                          display: Section Color
                 requests_for_qualifications:
                   display: Requests for Qualifications
                   fields:
