@@ -14,3 +14,8 @@ tabs:
             field:
               type: text
               display: 'Last name'
+          -
+            handle: organization
+            field:
+              type: text
+              display: Organization
