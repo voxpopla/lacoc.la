@@ -31,6 +31,7 @@ tabs:
             field:
               type: date
               time_enabled: true
+              timezone: America/Los_Angeles
               display: Date
               validate:
                 - required

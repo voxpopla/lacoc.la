@@ -48,7 +48,7 @@ new class extends Component
     public function formatMeetingDate($date): string
     {
         if ($date instanceof CarbonInterface) {
-            return $date->format('F j, Y g:i A');
+            return $date->copy()->setTimezone('America/Los_Angeles')->format('F j, Y g:i A');
         }
 
         return $date ? (string) $date : '';
