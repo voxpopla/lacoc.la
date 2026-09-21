@@ -48,7 +48,7 @@ description:
             type: italic
         text: '*See RFQ for complete timeline. Dates are subject to change and will be re-published if adjusted.'
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1790016687
+updated_at: 1790016750
 resources:
   -
     id: MQawMfypDzbzgReK_41sh
@@ -65,19 +65,19 @@ resources:
     enabled: true
     url: 'https://losangelescoc.org/assets/la-coc-rfq-application-questions-9.11.26.docx'
   -
-    id: 3BoRnBs-Be5_aglzm32sB
-    resource_type: url
-    name: 'Mandatory Intent to Apply'
-    type: resource
-    enabled: true
-    url: 'https://losangelescoc.org/assets/la-coc-rfq-intent-to-apply-9.11.26.docx'
-  -
     id: '-oKAatXSWW0nN8BfoyHgn'
     resource_type: url
     name: 'Written Questions and Answers (Q&A)'
     url: 'https://losangelescoc.org/assets/rfq-questions-and-answers%2C-september-21%2C-2026.pdf'
     type: resource
     enabled: true
+  -
+    id: 3BoRnBs-Be5_aglzm32sB
+    resource_type: url
+    name: 'Mandatory Intent to Apply'
+    type: resource
+    enabled: true
+    url: 'https://losangelescoc.org/assets/la-coc-rfq-intent-to-apply-9.11.26.docx'
   -
     id: JKMOapEkSiBrnZmzHoMhw
     resource_type: url
