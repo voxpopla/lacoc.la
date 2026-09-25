@@ -7,7 +7,7 @@ preferences:
     meetings:
       view: tree
     news:
-      view: list
+      view: tree
     pages:
       view: tree
     requests_for_qualifications:
