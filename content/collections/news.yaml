@@ -3,10 +3,8 @@ icon: collections
 template: default
 layout: layout
 revisions: false
-sort_dir: asc
-date_behavior:
-  past: null
-  future: null
+date: true
+sort_dir: desc
 preview_targets:
   -
     label: Entry
