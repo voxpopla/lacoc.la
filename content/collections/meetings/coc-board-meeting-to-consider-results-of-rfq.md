@@ -12,9 +12,9 @@ description:
 date: '2026-10-06 20:00'
 feature_link:
   link_type: url
-  name: 'LA COC Board HMIS Committee Agenda And Supporting Documents 10/06/2026'
+  name: 'View Agenda & Register to Attend Virtually'
   url: 'https://www.lahsa.org/documents?id=10294-la-coc-board-hmis-committee-agenda-and-supporting-documents-10-06-2026'
   open_in_new_tab: true
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1791227696
+updated_at: 1791228265
 ---
