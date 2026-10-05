@@ -43,12 +43,37 @@ description:
     content:
       -
         type: text
+        text: 'CoC Board Meeting to Consider Results of RFQ - 10/6/2026 at 1:00PM'
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'This notice hereby updates the RFQ timeline, which originally stated the CoC Board Meeting would occur on October 7, 2026.'
+  -
+    type: paragraph
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
         marks:
           -
             type: italic
         text: '*See RFQ for complete timeline. Dates are subject to change and will be re-published if adjusted.'
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1790016750
+updated_at: 1791228683
 resources:
   -
     id: MQawMfypDzbzgReK_41sh
