@@ -43,7 +43,7 @@ description:
     content:
       -
         type: text
-        text: 'LA CoC Board Meeting to Consider Results of RFQ - 10/6/2026 at 1:00PM '
+        text: 'LA CoC Board Meeting to Consider Results of RFQ - 10/6/2026 at 10:00 AM '
       -
         type: text
         marks:
@@ -60,7 +60,7 @@ description:
             type: italic
         text: '*See RFQ for complete timeline. Dates are subject to change and will be re-published if adjusted.'
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1791229470
+updated_at: 1791229505
 resources:
   -
     id: MQawMfypDzbzgReK_41sh
