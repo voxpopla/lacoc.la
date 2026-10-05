@@ -1,7 +1,7 @@
 ---
 id: 3ac027d7-fc4b-42e1-8ceb-78ae67a4e791
 blueprint: meeting
-title: 'CoC Board Meeting to Consider Results of RFQ'
+title: 'CoC Board Meeting to Consider Results of RFQ - 10/6'
 description:
   -
     type: paragraph
@@ -16,5 +16,5 @@ feature_link:
   url: 'https://www.lahsa.org/documents?id=10294-la-coc-board-hmis-committee-agenda-and-supporting-documents-10-06-2026'
   open_in_new_tab: true
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1791227660
+updated_at: 1791227671
 ---
