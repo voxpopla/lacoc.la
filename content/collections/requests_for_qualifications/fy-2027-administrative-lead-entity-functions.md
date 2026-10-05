@@ -60,7 +60,7 @@ description:
             type: italic
         text: '*See RFQ for complete timeline. Dates are subject to change and will be re-published if adjusted.'
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1791230031
+updated_at: 1791241724
 resources:
   -
     id: MQawMfypDzbzgReK_41sh
@@ -90,6 +90,13 @@ resources:
     type: resource
     enabled: true
     url: 'https://losangelescoc.org/assets/la-coc-rfq-intent-to-apply-9.11.26.docx'
+  -
+    id: 85ZxxW6lQ0iXmWGgVfKpL
+    resource_type: url
+    name: 'LA CoC RFQ Results Memo'
+    url: 'https://losangelescoc.org/assets/la-coc-rfq-results-memo_final.pdf'
+    type: resource
+    enabled: true
   -
     id: JKMOapEkSiBrnZmzHoMhw
     resource_type: url
