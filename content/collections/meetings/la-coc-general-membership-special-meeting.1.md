@@ -1,7 +1,7 @@
 ---
 id: 758dc6ca-2ebe-4958-9688-883031acc3db
 blueprint: meeting
-title: 'LA CoC General Membership Special Meeting'
+title: 'LA CoC General Membership Special Meeting - 10/26'
 description:
   -
     type: paragraph
@@ -26,5 +26,5 @@ feature_link:
   url: 'https://www.lahsa.org/documents?id=10489-2026-10-26-coc-general-membership-special-meeting-agenda'
   open_in_new_tab: true
 updated_by: 1f754d46-7fb5-4ff4-ae99-ac64ef4ea251
-updated_at: 1792977995
+updated_at: 1792978013
 ---
